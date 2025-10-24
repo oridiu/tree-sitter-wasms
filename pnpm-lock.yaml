@@ -86,8 +86,8 @@ devDependencies:
     specifier: ^2.1.0
     version: 2.1.0
   tree-sitter-ocaml:
-    specifier: ^0.24.2
-    version: 0.24.2(tree-sitter@0.22.4)
+    specifier: ^0.20.4
+    version: 0.20.4
   tree-sitter-php:
     specifier: ^0.24.2
     version: 0.24.2(tree-sitter@0.22.4)
@@ -1376,18 +1376,11 @@ packages:
       nan: 2.23.0
     dev: true
 
-  /tree-sitter-ocaml@0.24.2(tree-sitter@0.22.4):
-    resolution: {integrity: sha512-H0RAeCepIyXyTPCQra6yMd7Bn5ZBYkIaddzdLNwVZpM9mCe2e8av+3O6Ojl7Z8YHrV/kYsfHvI2y+Hh7qzcYQQ==}
+  /tree-sitter-ocaml@0.20.4:
+    resolution: {integrity: sha512-k8w2yQwSY1j8LZQmfrSgs8/P6+Nair67JHhysW5Sgfr4SGIq4tqkQnHnZAG0vVo1vsHslGvYRiaYsUSros8p+Q==}
     requiresBuild: true
-    peerDependencies:
-      tree-sitter: ^0.22.4
-    peerDependenciesMeta:
-      tree-sitter:
-        optional: true
     dependencies:
-      node-addon-api: 8.5.0
-      node-gyp-build: 4.8.4
-      tree-sitter: 0.22.4
+      nan: 2.23.0
     dev: true
 
   /tree-sitter-php@0.24.2(tree-sitter@0.22.4):
