@@ -34,7 +34,7 @@
     "tree-sitter-kotlin": "github:fwcd/tree-sitter-kotlin",
     "tree-sitter-lua": "^2.1.3",
     "tree-sitter-objc": "^2.1.0",
-    "tree-sitter-ocaml": "^0.24.2",
+    "tree-sitter-ocaml": "^0.20.4",
     "tree-sitter-php": "^0.24.2",
     "tree-sitter-python": "^0.23.6",
     "tree-sitter-ql": "^1.0.0",
